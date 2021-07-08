@@ -514,7 +514,7 @@ body {
             position: absolute;
             top: 0px;
             left: -100%;
-            background: inherit; }
+            background: red; }
           #header .inner .menuWeb #gnb li .sub::after {
             content: "";
             display: block;
@@ -523,7 +523,7 @@ body {
             position: absolute;
             top: 0px;
             right: -100%;
-            background: inherit; }
+            background: blue; }
         #header .inner .menuWeb #gnb li:hover a {
           background: #555;
           color: #fff; }
