@@ -28,5 +28,5 @@ $("#gnb>li").each(function(index){
     //1depth li에서 마지막 a요소에 focusout이벤트 연결
     $("#gnb>li").eq(index).find("a").last().on("focusout", function(){
         $("#gnb>li").eq(index).find(".sub").hide();
-    })
+    });
 })

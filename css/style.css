@@ -509,6 +509,16 @@ body {
           right: 0px;
           display: none;
           background: #fff; }
+          #header .inner .menuWeb #gnb > li .sub .left {
+            width: 30%;
+            height: 100%;
+            background: lightgreen;
+            float: left; }
+          #header .inner .menuWeb #gnb > li .sub .right {
+            width: 70%;
+            height: 100%;
+            background: #fff;
+            float: right; }
           #header .inner .menuWeb #gnb > li .sub::before {
             content: "";
             width: 100%;
@@ -517,7 +527,7 @@ body {
             position: absolute;
             top: 0px;
             left: 100%;
-            background: inherit; }
+            background: #fff; }
           #header .inner .menuWeb #gnb > li .sub::after {
             content: "";
             display: block;
@@ -526,7 +536,7 @@ body {
             position: absolute;
             top: 0px;
             right: 100%;
-            background: inherit; }
+            background: lightgreen; }
     #header .inner .menuWeb .util {
       position: absolute;
       top: 20px;
