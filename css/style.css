@@ -46,17 +46,53 @@ input, a, img, span, label, select {
         content: '';
         display: block;
         clear: both; }
-      #header_sub .inner .menuWeb #gnb li {
+      #header_sub .inner .menuWeb #gnb > li {
         float: left; }
-        #header_sub .inner .menuWeb #gnb li a {
+        #header_sub .inner .menuWeb #gnb > li > a {
           display: block;
           padding: 20px 40px;
           font: bold 15px/1 'arial';
           color: #555;
           transition: all 0.5s; }
-        #header_sub .inner .menuWeb #gnb li:hover a {
+        #header_sub .inner .menuWeb #gnb > li:hover a {
           background: #555;
           color: #fff; }
+        #header_sub .inner .menuWeb #gnb > li .sub {
+          width: 1180px;
+          height: 300px;
+          position: absolute;
+          top: 51px;
+          right: 0px;
+          display: none;
+          background: #fff; }
+          #header_sub .inner .menuWeb #gnb > li .sub .left {
+            width: 30%;
+            height: 100%;
+            background: lightgreen;
+            float: left; }
+          #header_sub .inner .menuWeb #gnb > li .sub .right {
+            width: 70%;
+            height: 100%;
+            background: #fff;
+            float: right; }
+          #header_sub .inner .menuWeb #gnb > li .sub::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: 100%;
+            background: #fff; }
+          #header_sub .inner .menuWeb #gnb > li .sub::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            right: 100%;
+            background: lightgreen; }
     #header_sub .inner .menuWeb .util {
       position: absolute;
       top: 20px;

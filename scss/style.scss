@@ -10,6 +10,7 @@ $mobile:539px;
 @import 'join.scss';
 @import 'gallery.scss';
 @import 'youtube.scss';
+@import 'location.scss';
 
 
 @mixin title($fontSize:24px, $fontFamily:'arial',$color:#555,$align:center, $mb:50px){
@@ -19,6 +20,7 @@ $mobile:539px;
     margin-bottom:$mb; 
 }
 body {width: 100%; overflow-x: hidden;}
+
 #header{
     width:100%; border-bottom:1px solid #ddd; position: relative; z-index: 2;
 
