@@ -69,12 +69,14 @@ input, a, img, span, label, select {
             width: 30%;
             height: 100%;
             background: lightgreen;
-            float: left; }
+            float: left;
+            border-bottom: 1px solid #aaa; }
           #header_sub .inner .menuWeb #gnb > li .sub .right {
             width: 70%;
             height: 100%;
             background: #fff;
-            float: right; }
+            float: right;
+            border-bottom: 1px solid #aaa; }
           #header_sub .inner .menuWeb #gnb > li .sub::before {
             content: "";
             width: 100%;
@@ -83,7 +85,8 @@ input, a, img, span, label, select {
             position: absolute;
             top: 0px;
             left: 100%;
-            background: #fff; }
+            background: #fff;
+            border-bottom: 1px solid #aaa; }
           #header_sub .inner .menuWeb #gnb > li .sub::after {
             content: "";
             display: block;
@@ -92,7 +95,8 @@ input, a, img, span, label, select {
             position: absolute;
             top: 0px;
             right: 100%;
-            background: lightgreen; }
+            background: lightgreen;
+            border-bottom: 1px solid #aaa; }
     #header_sub .inner .menuWeb .util {
       position: absolute;
       top: 20px;
@@ -495,6 +499,11 @@ input, a, img, span, label, select {
     right: 20px;
     color: orange;
     cursor: pointer; }
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: #000; }
 
 body {
   width: 100%;
